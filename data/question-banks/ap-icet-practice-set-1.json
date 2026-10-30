@@ -1,0 +1,220 @@
+{
+  "exam": "AP ICET Practice Set 1",
+  "questions": [
+    {
+      "id": 1,
+      "section": "Mathematical Ability",
+      "question": "If 25% of a number is 80, the number is:",
+      "options": ["280", "300", "320", "340"],
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "section": "Mathematical Ability",
+      "question": "Simple interest on Rs.5000 at 10% p.a. for 2 years is:",
+      "options": ["Rs.500", "Rs.1000", "Rs.1200", "Rs.1500"],
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "section": "Mathematical Ability",
+      "question": "The average of 10, 20, 30, 40, 50 is:",
+      "options": ["25", "30", "35", "40"],
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "section": "Mathematical Ability",
+      "question": "12 : 18 :: 20 : ?",
+      "options": ["24", "28", "30", "32"],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "section": "Mathematical Ability",
+      "question": "A train covers 120 km in 2 hours. Its speed is:",
+      "options": ["50 kmph", "60 kmph", "70 kmph", "80 kmph"],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "section": "Analytical Ability",
+      "question": "Find the odd one out: Apple, Mango, Rose, Banana",
+      "options": ["Apple", "Mango", "Rose", "Banana"],
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "section": "Analytical Ability",
+      "question": "If CAT = DBU, then DOG = ?",
+      "options": ["EPH", "EOH", "EPG", "FPH"],
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "section": "Analytical Ability",
+      "question": "Complete: 2, 4, 8, 16, ?",
+      "options": ["20", "24", "30", "32"],
+      "answer": "D"
+    },
+    {
+      "id": 9,
+      "section": "Analytical Ability",
+      "question": "Which direction is opposite to East?",
+      "options": ["West", "North", "South", "North-East"],
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "section": "Analytical Ability",
+      "question": "If all pens are books and all books are bags, then all pens are:",
+      "options": ["Bags", "Tables", "Pencils", "Boxes"],
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "section": "Communication Ability",
+      "question": "Choose the correct spelling:",
+      "options": ["Recieve", "Receive", "Receeve", "Receve"],
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "section": "Communication Ability",
+      "question": "Synonym of 'Rapid':",
+      "options": ["Slow", "Fast", "Weak", "Small"],
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "section": "Communication Ability",
+      "question": "Antonym of 'Ancient':",
+      "options": ["Old", "Historic", "Modern", "Past"],
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "section": "Communication Ability",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "He go to school.",
+        "He goes to school.",
+        "He going to school.",
+        "He gone to school."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "section": "Communication Ability",
+      "question": "One who writes poems is called:",
+      "options": ["Painter", "Poet", "Singer", "Author"],
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "section": "Mathematical Ability",
+      "question": "40% of 900 equals:",
+      "options": ["320", "340", "360", "380"],
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "section": "Mathematical Ability",
+      "question": "The value of 15² is:",
+      "options": ["205", "215", "225", "235"],
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "section": "Mathematical Ability",
+      "question": "A shopkeeper gains 20% on a product costing Rs.500. Selling price:",
+      "options": ["550", "600", "650", "700"],
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "section": "Analytical Ability",
+      "question": "Find next term: 1, 4, 9, 16, ?",
+      "options": ["20", "25", "30", "36"],
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "section": "Analytical Ability",
+      "question": "If Monday is coded as 1, Tuesday as 2, Wednesday as 3, then Friday is:",
+      "options": ["4", "5", "6", "7"],
+      "answer": "B"
+    },
+    {
+      "id": 21,
+      "section": "Communication Ability",
+      "question": "Plural of 'Child':",
+      "options": ["Childs", "Children", "Childes", "Childrens"],
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "section": "Communication Ability",
+      "question": "Choose the correct preposition: He is good ___ mathematics.",
+      "options": ["in", "at", "for", "on"],
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "section": "Mathematical Ability",
+      "question": "The ratio 15:25 simplifies to:",
+      "options": ["3:5", "5:3", "15:5", "25:15"],
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "section": "Analytical Ability",
+      "question": "Which number differs from others?",
+      "options": ["16", "25", "36", "45"],
+      "answer": "D"
+    },
+    {
+      "id": 25,
+      "section": "Communication Ability",
+      "question": "Synonym of 'Honest':",
+      "options": ["Truthful", "Lazy", "Careless", "Weak"],
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "section": "Mathematical Ability",
+      "question": "The perimeter of a square of side 8 cm is:",
+      "options": ["16", "24", "32", "64"],
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "section": "Analytical Ability",
+      "question": "Find missing number: 3, 6, 12, 24, ?",
+      "options": ["36", "42", "48", "54"],
+      "answer": "C"
+    },
+    {
+      "id": 28,
+      "section": "Communication Ability",
+      "question": "Antonym of 'Victory':",
+      "options": ["Success", "Triumph", "Defeat", "Gain"],
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "section": "Mathematical Ability",
+      "question": "1/4 + 1/2 =",
+      "options": ["1/2", "3/4", "1", "5/4"],
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "section": "Analytical Ability",
+      "question": "Which comes next? A, C, E, G, ?",
+      "options": ["H", "I", "J", "K"],
+      "answer": "B"
+    }
+  ]
+}

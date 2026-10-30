@@ -1,0 +1,56 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Dependencies
+node_modules/
+.pnpm-store/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+build/
+out/
+.next/
+.astro/
+.vercel/
+coverage/
+.turbo/
+
+# Local data & uploads
+*.sqlite
+*.sqlite3
+*.db
+uploads/
+media/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test artefacts
+playwright-report/
+test-results/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Runtime data written by the local server (tests edited in admin, attempts)
+data/runtime/

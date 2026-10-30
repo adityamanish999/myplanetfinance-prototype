@@ -1,0 +1,165 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "label": "[Admissions badge — owner to confirm]",
+        "heading": "Start your finance career",
+        "highlight": "with industry-focused programmes",
+        "text": "Programmes in PGDM / MBA, Advanced B.Com / BBA and Investment Banking & Fund Accounting.",
+        "imageId": null,
+        "imageAlt": "",
+        "primaryButton": {
+          "label": "Apply now",
+          "href": "/apply.html"
+        },
+        "secondaryButton": {
+          "label": "Download brochure",
+          "href": "/brochure.pdf"
+        },
+        "active": true
+      },
+      {
+        "label": "",
+        "heading": "Practise",
+        "highlight": "for AP ICET and TG ICET",
+        "text": "Timed mock tests with section-wise results and answer explanations.",
+        "imageId": null,
+        "imageAlt": "",
+        "primaryButton": {
+          "label": "Apply now",
+          "href": "/apply.html"
+        },
+        "secondaryButton": {
+          "label": "Start a mock test",
+          "href": "/mock-tests.html"
+        },
+        "active": true
+      },
+      {
+        "label": "Placeholder",
+        "heading": "[Banner heading set in Admin]",
+        "highlight": "",
+        "text": "[Banner text set in Admin. Images, headings and buttons are all editable.]",
+        "imageId": null,
+        "imageAlt": "",
+        "primaryButton": {
+          "label": "Send an enquiry",
+          "href": "#contact"
+        },
+        "secondaryButton": {
+          "label": "",
+          "href": ""
+        },
+        "active": true
+      }
+    ],
+    "stats": [
+      {
+        "value": "100%",
+        "label": "Case-based teaching"
+      },
+      {
+        "value": "95%",
+        "label": "Placements"
+      },
+      {
+        "value": "25,000",
+        "label": "Alumni strength"
+      }
+    ]
+  },
+  "sections": {
+    "programmes": {
+      "heading": "Study programmes",
+      "lead": "Build skills · Gain knowledge · Create opportunities. Your learning today, a brighter tomorrow."
+    },
+    "mockTests": {
+      "heading": "ICET mock tests",
+      "lead": "Exam patterns are set from the official notification."
+    },
+    "highlights": {
+      "heading": "Why study with us"
+    },
+    "videos": {
+      "heading": "Videos"
+    },
+    "contact": {
+      "heading": "Contact us",
+      "lead": "Contact details below are placeholders until verified. Use the enquiry form at the top of the page."
+    }
+  },
+  "programmes": [
+    {
+      "name": "PGDM / MBA",
+      "subtitle": "Master of Business Administration",
+      "tagline": "Lead · Manage · Grow",
+      "imageId": null,
+      "imageAlt": "",
+      "duration": "[To confirm]",
+      "eligibility": "Undergraduate degree",
+      "features": [
+        "Comprehensive syllabus coverage",
+        "Case studies & real-world applications",
+        "Expert faculty guidance",
+        "Mock tests & performance analysis",
+        "Career support & placement guidance"
+      ],
+      "cta": {
+        "label": "Prepare for a successful MBA journey",
+        "href": "/apply.html"
+      }
+    },
+    {
+      "name": "Advanced B.Com / BBA",
+      "subtitle": "Bachelor of Business Administration",
+      "tagline": "Learn · Explore · Build your future",
+      "imageId": null,
+      "imageAlt": "",
+      "duration": "[To confirm]",
+      "eligibility": "PUC (Class 12)",
+      "features": [
+        "Concept clarity and structured learning",
+        "Industry-relevant knowledge",
+        "Interactive classes & doubt clearing",
+        "Regular tests & progress tracking",
+        "Personality development & soft skills"
+      ],
+      "cta": {
+        "label": "Build a strong foundation with BBA",
+        "href": "/apply.html"
+      }
+    },
+    {
+      "name": "Investment Banking & Fund Accounting",
+      "subtitle": "Learn · Analyse · Invest · Grow",
+      "tagline": "Understand markets · Evaluate opportunities · Build wealth",
+      "imageId": null,
+      "imageAlt": "",
+      "duration": "[To confirm]",
+      "eligibility": "MBA",
+      "features": [
+        "Basics to advanced investment concepts",
+        "Equity, debt, mutual funds & alternative assets",
+        "Fundraising and funding strategies",
+        "Live market analysis & practical insights",
+        "Expert sessions & real-world case studies"
+      ],
+      "cta": {
+        "label": "Gain practical knowledge in investment & funding",
+        "href": "/apply.html"
+      }
+    }
+  ],
+  "highlights": [
+    "Experienced faculty",
+    "Structured study material",
+    "Online & offline learning options",
+    "Mock tests & assessments",
+    "Personalised mentoring",
+    "Career guidance & support"
+  ],
+  "social": {
+    "linkedin": "",
+    "instagram": ""
+  }
+}

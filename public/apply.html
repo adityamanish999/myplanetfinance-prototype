@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apply for admission — MyPlanetFinance Prototype</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/chat-widget.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <!--SOCIAL_ICONS-->
+      <div class="topbar__info">
+        <span>Mon–Sat [timings to confirm]</span>
+        <span class="topbar__phone">Call: [Phone — owner to confirm]</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">
+        <span class="brand__logo" aria-hidden="true">LOGO</span>
+        <span>MyPlanetFinance</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/#programmes">Programmes</a>
+        <a href="/mock-tests.html">Mock Tests</a>
+        <a href="/#contact">Contact</a>
+        <a href="/apply.html" aria-current="page">Apply</a>
+      </nav>
+      <a class="btn btn--primary site-header__cta" href="/brochure.pdf" download>Download brochure</a>
+    </div>
+  </header>
+
+  <main class="container apply">
+    <h1>Application for admission</h1>
+    <p class="apply__lead">Fill in your details as they appear on your certificates. Fields marked <span aria-hidden="true">*</span><span class="mpf-visually-hidden">with an asterisk</span> are required.</p>
+    <p class="apply__notice" role="note"><strong>Demo form.</strong> Online applications are not open yet: nothing you type here is sent or stored. [Admission process, eligibility and last date — owner to confirm.]</p>
+
+    <div id="apply-errors" class="apply__errors" role="alert" tabindex="-1" hidden></div>
+
+    <form id="apply-form" class="apply__form" novalidate>
+      <fieldset>
+        <legend>1. Programme</legend>
+        <div class="apply__grid">
+          <label>Programme applying for *
+            <select name="programme" required>
+              <option value="">Select a programme</option>
+              <option>PGDM / MBA</option>
+              <option>Advanced B.Com / BBA</option>
+              <option>Investment Banking &amp; Fund Accounting</option>
+            </select>
+          </label>
+          <label>Preferred campus / batch
+            <select name="batch">
+              <option value="">No preference</option>
+              <option>[Batch / campus options — owner to confirm]</option>
+            </select>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. Personal details</legend>
+        <div class="apply__grid">
+          <label>Full name (as on certificates) *<input type="text" name="fullName" autocomplete="name" maxlength="100" required></label>
+          <label>Date of birth *<input type="date" name="dob" required></label>
+          <label>Gender *
+            <select name="gender" required>
+              <option value="">Select</option>
+              <option>Female</option>
+              <option>Male</option>
+              <option>Other</option>
+              <option>Prefer not to say</option>
+            </select>
+          </label>
+          <label>Email *<input type="email" name="email" autocomplete="email" maxlength="120" required></label>
+          <label>Mobile number *<input type="tel" name="mobile" autocomplete="tel" inputmode="numeric" maxlength="10" pattern="[6-9][0-9]{9}" required>
+            <span class="apply__hint">10-digit Indian mobile number</span></label>
+          <label>Parent / guardian name *<input type="text" name="guardianName" maxlength="100" required></label>
+          <label>Parent / guardian mobile *<input type="tel" name="guardianMobile" inputmode="numeric" maxlength="10" pattern="[6-9][0-9]{9}" required></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. Address</legend>
+        <div class="apply__grid">
+          <label class="apply__wide">Address *<textarea name="address" rows="2" autocomplete="street-address" maxlength="300" required></textarea></label>
+          <label>City / town *<input type="text" name="city" autocomplete="address-level2" maxlength="60" required></label>
+          <label>State *
+            <select name="state" autocomplete="address-level1" required>
+              <option value="">Select</option>
+              <option>Andhra Pradesh</option>
+              <option>Telangana</option>
+              <option>Other state</option>
+            </select>
+          </label>
+          <label>PIN code *<input type="text" name="pin" autocomplete="postal-code" inputmode="numeric" maxlength="6" pattern="[1-9][0-9]{5}" required></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>4. Education</legend>
+        <div class="apply__grid">
+          <label>Class 10 board *<input type="text" name="tenthBoard" maxlength="80" required></label>
+          <label>Class 10 year of passing *<input type="number" name="tenthYear" min="1990" max="2030" required></label>
+          <label>Class 10 marks (% or CGPA) *<input type="text" name="tenthScore" maxlength="10" required></label>
+          <label>Class 12 / diploma board *<input type="text" name="twelfthBoard" maxlength="80" required></label>
+          <label>Class 12 year of passing *<input type="number" name="twelfthYear" min="1990" max="2030" required></label>
+          <label>Class 12 marks (% or CGPA) *<input type="text" name="twelfthScore" maxlength="10" required></label>
+          <label>Graduation degree<input type="text" name="degree" maxlength="80">
+            <span class="apply__hint">Required for PGDM / MBA</span></label>
+          <label>University / college<input type="text" name="university" maxlength="120"></label>
+          <label>Graduation status
+            <select name="degreeStatus">
+              <option value="">Select</option>
+              <option>Completed</option>
+              <option>Final year (result awaited)</option>
+            </select>
+          </label>
+          <label>Graduation year of passing<input type="number" name="degreeYear" min="1990" max="2030"></label>
+          <label>Graduation marks (% or CGPA)<input type="text" name="degreeScore" maxlength="10"></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>5. Entrance exam</legend>
+        <div class="apply__grid">
+          <label>Entrance exam taken
+            <select name="exam">
+              <option value="">None / not yet</option>
+              <option>AP ICET</option>
+              <option>TG ICET</option>
+              <option>CAT</option>
+              <option>MAT</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Hall ticket / roll number<input type="text" name="examRoll" maxlength="30"></label>
+          <label>Score or rank<input type="text" name="examScore" maxlength="20"></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>6. Declaration</legend>
+        <label class="checkbox"><input type="checkbox" name="declaration" required><span>I declare that the information given above is true and complete. *</span></label>
+        <label class="checkbox"><input type="checkbox" name="consent" required><span>I agree to be contacted about my application. [Privacy notice pending] *</span></label>
+      </fieldset>
+
+      <div class="btn-row">
+        <button type="submit" class="btn btn--cta">Submit application (demo)</button>
+        <a class="btn btn--primary" href="/brochure.pdf" download>Download brochure</a>
+      </div>
+      <p id="apply-result" class="apply__result" role="status"></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div><strong class="footer__brand">MyPlanetFinance</strong><span>[Short description — owner to supply]</span></div>
+      <div><strong>Explore</strong><a href="/#programmes">Programmes</a><a href="/mock-tests.html">Mock tests</a><a href="/apply.html">Apply</a><span>Privacy policy (pending)</span></div>
+      <div><strong>Contact</strong><span>[Office address]</span><span>[Phone] · [Email]</span></div>
+      <div class="footer__social"><strong>Follow us</strong><!--SOCIAL_LIST--></div>
+    </div>
+    <div class="footer__bottom">© [Year] [Official business name] · Prototype with placeholder content</div>
+  </footer>
+
+  <script src="/js/apply.js"></script>
+  <script src="/js/chat-widget.js"></script>
+</body>
+</html>

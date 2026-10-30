@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Mock test in progress — MyPlanetFinance</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/mock-tests.css">
+</head>
+<body data-page="test">
+  <!-- The chat assistant is intentionally not loaded during a test. -->
+  <p id="tp-loading" class="container mt-main mt-status" role="status">Loading your test…</p>
+  <p id="tp-error" class="container mt-main mt-error" role="alert" hidden></p>
+
+  <div id="tp-app" hidden>
+    <div class="tp-bar">
+      <div class="container tp-bar__inner">
+        <h1 id="tp-title" class="tp-bar__title">Mock test</h1>
+        <div class="tp-bar__right">
+          <span id="tp-save" class="tp-save" role="status">All answers saved</span>
+          <span class="mpf-visually-hidden">Time left</span>
+          <span id="tp-timer" class="tp-timer">--:--</span>
+          <button id="tp-submit" type="button" class="btn btn--accent">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <main class="container tp-layout">
+      <section class="tp-question" aria-labelledby="tp-number">
+        <p id="tp-warning" class="tp-warning" role="alert"></p>
+        <div class="tp-question__head">
+          <span id="tp-section"></span>
+          <span id="tp-number"></span>
+        </div>
+        <p id="tp-text" class="tp-question__text" tabindex="-1"></p>
+        <fieldset id="tp-options" class="tp-options">
+          <legend class="mpf-visually-hidden">Choose one answer</legend>
+        </fieldset>
+        <div class="tp-actions">
+          <div>
+            <button id="tp-mark" type="button" class="btn btn--warning" aria-pressed="false">Mark for review</button>
+            <button id="tp-clear" type="button" class="btn btn--secondary">Clear answer</button>
+          </div>
+          <div>
+            <button id="tp-prev" type="button" class="btn btn--secondary">Previous</button>
+            <button id="tp-next" type="button" class="btn btn--primary">Next</button>
+          </div>
+        </div>
+      </section>
+
+      <aside class="tp-palette mt-panel" aria-label="Question palette">
+        <h2>Questions</h2>
+        <p class="mt-status">Answered <strong id="tp-count-answered">0</strong> · Marked <strong id="tp-count-marked">0</strong> · Not answered <strong id="tp-count-unanswered">0</strong></p>
+        <div id="tp-palette-body"></div>
+        <ul class="tp-legend" aria-label="Palette colours">
+          <li><span class="tp-pal--answered"></span>Answered</li>
+          <li><span class="tp-pal--not-answered"></span>Visited, not answered</li>
+          <li><span class="tp-pal--marked"></span>Marked for review</li>
+          <li><span class="tp-pal--answered-marked"></span>Answered and marked (dot)</li>
+          <li><span class="tp-pal"></span>Not visited</li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+
+  <div id="tp-modal" class="mt-modal" hidden>
+    <div class="mt-modal__box" role="dialog" aria-modal="true" aria-labelledby="tp-modal-title" aria-describedby="tp-modal-note">
+      <h2 id="tp-modal-title">Submit your test?</h2>
+      <ul id="tp-modal-summary" class="mt-summary"></ul>
+      <p id="tp-modal-note"></p>
+      <p id="tp-modal-error" class="mt-error-text" role="alert"></p>
+      <div class="btn-row">
+        <button id="tp-modal-confirm" type="button" class="btn btn--primary">Submit test</button>
+        <button id="tp-modal-cancel" type="button" class="btn btn--secondary">Keep working</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/mock-test-core.js"></script>
+  <script src="/js/mock-test-player.js"></script>
+</body>
+</html>

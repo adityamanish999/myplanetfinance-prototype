@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test instructions — MyPlanetFinance</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/mock-tests.css">
+  <link rel="stylesheet" href="/css/chat-widget.css">
+</head>
+<body data-page="instructions">
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">MyPlanetFinance</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/mock-tests.html">Mock Tests</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-main">
+    <p id="mt-status" class="mt-status" role="status">Loading test…</p>
+    <p id="mt-error" class="mt-error" role="alert" hidden></p>
+
+    <div id="mt-content" hidden>
+      <p class="mt-breadcrumb"><a href="/mock-tests.html">Mock Tests</a> › <a id="mt-exam-link" href="/mock-tests.html">Exam</a> › Instructions</p>
+      <h1 id="mt-test-title" class="mt-title">Test</h1>
+      <ul id="mt-test-meta" class="mt-meta"></ul>
+
+      <section id="mt-resume" class="mt-panel mt-resume" hidden>
+        <h2>You have this test in progress</h2>
+        <p>Your answers have been saved and the timer is still running.</p>
+        <a id="mt-resume-link" class="btn btn--primary" href="/mock-tests.html">Resume test</a>
+      </section>
+
+      <section class="mt-panel">
+        <h2>Sections</h2>
+        <ul id="mt-sections"></ul>
+      </section>
+
+      <section id="mt-test-instructions-block" class="mt-panel">
+        <h2>Instructions for this test</h2>
+        <ul id="mt-test-instructions"></ul>
+      </section>
+
+      <section class="mt-panel">
+        <h2>How the test works</h2>
+        <ul>
+          <li>The timer starts when you click <strong>Start now</strong> and keeps running even if you close the page.</li>
+          <li>Choose one answer per question. You can change or clear an answer at any time before submitting.</li>
+          <li>Use <strong>Mark for review</strong> to flag questions you want to come back to. The question palette shows which questions are answered, not answered, marked or not yet visited.</li>
+          <li>Every answer is saved automatically. If your connection drops, answers are kept on this device and saved when you are back online.</li>
+          <li>If the page is refreshed or closed by mistake, open the test again to continue where you left off.</li>
+          <li>When time runs out, your test is submitted automatically with the answers you have saved.</li>
+          <li>After submitting you will see your score, the correct answers and explanations.</li>
+          <li>Practice test only — not affiliated with the official exam authorities.</li>
+        </ul>
+        <label class="mt-check"><input id="mt-agree" type="checkbox"><span>I have read and understood the instructions.</span></label>
+        <button id="mt-start" type="button" class="btn btn--primary" disabled>Start test</button>
+      </section>
+    </div>
+
+    <div id="mt-confirm" class="mt-modal" hidden>
+      <div class="mt-modal__box" role="dialog" aria-modal="true" aria-labelledby="mt-confirm-title" aria-describedby="mt-confirm-text">
+        <h2 id="mt-confirm-title">Start the test now?</h2>
+        <p id="mt-confirm-text">The <span id="mt-confirm-duration">timer</span> timer starts immediately and cannot be paused.</p>
+        <p id="mt-confirm-error" class="mt-error-text" role="alert"></p>
+        <div class="btn-row">
+          <button id="mt-confirm-start" type="button" class="btn btn--primary">Start now</button>
+          <button id="mt-confirm-cancel" type="button" class="btn btn--secondary">Not yet</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/js/mock-test-core.js"></script>
+  <script src="/js/mock-test-pages.js"></script>
+  <script src="/js/chat-widget.js"></script>
+</body>
+</html>

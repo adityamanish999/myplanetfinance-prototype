@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Admin — MyPlanetFinance Prototype</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/mock-tests.css">
+  <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+  <header class="admin-bar">
+    <div class="container admin-bar__inner">
+      <a class="admin-bar__brand" href="/admin/">MyPlanetFinance · Admin</a>
+      <div class="admin-bar__right">
+        <span id="admin-user"></span>
+        <a href="/" class="admin-bar__link">View website</a>
+        <button id="admin-logout" type="button" class="btn btn--secondary" hidden>Sign out</button>
+      </div>
+    </div>
+  </header>
+  <nav id="admin-nav" class="admin-nav" aria-label="Admin sections" hidden>
+    <div class="container admin-nav__inner">
+      <button type="button" data-view="content">Website content</button>
+      <button type="button" data-view="tests">Mock tests</button>
+    </div>
+  </nav>
+  <main class="container mt-main">
+    <p id="admin-notice" class="admin-notice" role="status"></p>
+    <p id="admin-alert" class="mt-error" role="alert" hidden></p>
+    <div id="admin-app"><p class="mt-status">Loading…</p></div>
+  </main>
+  <script src="/js/admin-dom.js"></script>
+  <script src="/js/admin-content.js"></script>
+  <script src="/js/admin.js"></script>
+</body>
+</html>

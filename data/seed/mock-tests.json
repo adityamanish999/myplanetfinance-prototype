@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "tests": [
+    {
+      "id": "ap-icet-sample-1",
+      "exam": "ap-icet",
+      "title": "AP ICET — Sample mock test 1",
+      "durationMinutes": 15,
+      "instructions": "This is a sample practice test with placeholder questions.\n[Official exam instructions and pattern to be supplied by the owner from the official notification.]",
+      "sections": [
+        {
+          "id": "ap-icet-sample-1-sec-a",
+          "name": "Section A [name per official pattern]"
+        },
+        {
+          "id": "ap-icet-sample-1-sec-b",
+          "name": "Section B [name per official pattern]"
+        },
+        {
+          "id": "ap-icet-sample-1-sec-c",
+          "name": "Section C [name per official pattern]"
+        }
+      ],
+      "marksPerQuestion": 1,
+      "negativeMarks": 0,
+      "published": true,
+      "questions": [
+        {
+          "id": "ap-icet-sample-1-q1",
+          "sectionId": "ap-icet-sample-1-sec-a",
+          "text": "Sample question 1 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 0,
+          "explanation": "[Explanation for sample question 1 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "ap-icet-sample-1-q2",
+          "sectionId": "ap-icet-sample-1-sec-a",
+          "text": "Sample question 2 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 1,
+          "explanation": "[Explanation for sample question 2 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "ap-icet-sample-1-q3",
+          "sectionId": "ap-icet-sample-1-sec-a",
+          "text": "Sample question 3 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 2,
+          "explanation": "[Explanation for sample question 3 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "ap-icet-sample-1-q4",
+          "sectionId": "ap-icet-sample-1-sec-b",
+          "text": "Sample question 4 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 3,
+          "explanation": "[Explanation for sample question 4 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "ap-icet-sample-1-q5",
+          "sectionId": "ap-icet-sample-1-sec-b",
+          "text": "Sample question 5 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 0,
+          "explanation": "[Explanation for sample question 5 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "ap-icet-sample-1-q6",
+          "sectionId": "ap-icet-sample-1-sec-b",
+          "text": "Sample question 6 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 1,
+          "explanation": "[Explanation for sample question 6 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "ap-icet-sample-1-q7",
+          "sectionId": "ap-icet-sample-1-sec-c",
+          "text": "Sample question 7 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 2,
+          "explanation": "[Explanation for sample question 7 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "ap-icet-sample-1-q8",
+          "sectionId": "ap-icet-sample-1-sec-c",
+          "text": "Sample question 8 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 3,
+          "explanation": "[Explanation for sample question 8 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "ap-icet-sample-1-q9",
+          "sectionId": "ap-icet-sample-1-sec-c",
+          "text": "Sample question 9 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 0,
+          "explanation": "[Explanation for sample question 9 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-10-29T00:00:00.000Z",
+      "updatedAt": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "tg-icet-sample-1",
+      "exam": "tg-icet",
+      "title": "TG ICET — Sample mock test 1",
+      "durationMinutes": 15,
+      "instructions": "This is a sample practice test with placeholder questions.\n[Official exam instructions and pattern to be supplied by the owner from the official notification.]",
+      "sections": [
+        {
+          "id": "tg-icet-sample-1-sec-a",
+          "name": "Section A [name per official pattern]"
+        },
+        {
+          "id": "tg-icet-sample-1-sec-b",
+          "name": "Section B [name per official pattern]"
+        },
+        {
+          "id": "tg-icet-sample-1-sec-c",
+          "name": "Section C [name per official pattern]"
+        }
+      ],
+      "marksPerQuestion": 1,
+      "negativeMarks": 0,
+      "published": true,
+      "questions": [
+        {
+          "id": "tg-icet-sample-1-q1",
+          "sectionId": "tg-icet-sample-1-sec-a",
+          "text": "Sample question 1 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 0,
+          "explanation": "[Explanation for sample question 1 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "tg-icet-sample-1-q2",
+          "sectionId": "tg-icet-sample-1-sec-a",
+          "text": "Sample question 2 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 1,
+          "explanation": "[Explanation for sample question 2 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "tg-icet-sample-1-q3",
+          "sectionId": "tg-icet-sample-1-sec-a",
+          "text": "Sample question 3 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 2,
+          "explanation": "[Explanation for sample question 3 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "tg-icet-sample-1-q4",
+          "sectionId": "tg-icet-sample-1-sec-b",
+          "text": "Sample question 4 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 3,
+          "explanation": "[Explanation for sample question 4 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "tg-icet-sample-1-q5",
+          "sectionId": "tg-icet-sample-1-sec-b",
+          "text": "Sample question 5 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 0,
+          "explanation": "[Explanation for sample question 5 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "tg-icet-sample-1-q6",
+          "sectionId": "tg-icet-sample-1-sec-b",
+          "text": "Sample question 6 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 1,
+          "explanation": "[Explanation for sample question 6 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "tg-icet-sample-1-q7",
+          "sectionId": "tg-icet-sample-1-sec-c",
+          "text": "Sample question 7 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 2,
+          "explanation": "[Explanation for sample question 7 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "tg-icet-sample-1-q8",
+          "sectionId": "tg-icet-sample-1-sec-c",
+          "text": "Sample question 8 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 3,
+          "explanation": "[Explanation for sample question 8 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        },
+        {
+          "id": "tg-icet-sample-1-q9",
+          "sectionId": "tg-icet-sample-1-sec-c",
+          "text": "Sample question 9 — placeholder. Real questions will be supplied and approved by MyPlanetFinance faculty.",
+          "options": [
+            "Option A (placeholder)",
+            "Option B (placeholder)",
+            "Option C (placeholder)",
+            "Option D (placeholder)"
+          ],
+          "correctOption": 0,
+          "explanation": "[Explanation for sample question 9 — to be written by faculty.]",
+          "createdAt": "2026-10-29T00:00:00.000Z",
+          "updatedAt": "2026-10-29T00:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-10-29T00:00:00.000Z",
+      "updatedAt": "2026-10-29T00:00:00.000Z"
+    }
+  ]
+}

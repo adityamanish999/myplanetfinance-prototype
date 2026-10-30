@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyPlanetFinance — Prototype</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/chat-widget.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <!--SOCIAL_ICONS-->
+      <div class="topbar__info">
+        <span>Mon–Sat [timings to confirm]</span>
+        <span class="topbar__phone">Call: [Phone — owner to confirm]</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">
+        <span class="brand__logo" aria-hidden="true">LOGO</span>
+        <span>MyPlanetFinance</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/" aria-current="page">Home</a>
+        <a href="#programmes">Programmes</a>
+        <a href="/mock-tests.html">Mock Tests</a>
+        <a href="#highlights">About</a>
+        <a href="#videos">Videos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn--primary site-header__cta" href="#enquiry">Enquire now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero--feature" aria-label="Featured">
+      <div class="container hero__layout">
+        <div class="hero__slides" aria-roledescription="carousel" aria-label="Banners">
+          <!--HERO-->
+        </div>
+        <aside id="enquiry" class="hero__form" aria-labelledby="enquiry-title">
+          <h2 id="enquiry-title">Enquiry form</h2>
+          <form class="enquiry__form" aria-describedby="enquiry-note">
+            <label>Full name<input type="text" name="name" autocomplete="name"></label>
+            <label>Phone or email<input type="text" name="contact"></label>
+            <label>Programme of interest
+              <select name="programme">
+                <option>PGDM / MBA</option>
+                <option>Advanced B.Com / BBA</option>
+                <option>Investment Banking &amp; Fund Accounting</option>
+                <option>ICET mock tests</option>
+              </select>
+            </label>
+            <label class="checkbox"><input type="checkbox" name="consent"><span>I agree to be contacted about this enquiry. [Privacy notice pending]</span></label>
+            <button type="button" class="btn btn--primary">Send enquiry (demo)</button>
+            <p id="enquiry-note" class="form-note">Demo form — nothing is sent or stored yet.</p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container quick-links" aria-label="Quick links">
+      <a class="card card--link" href="/mock-tests/ap-icet.html"><strong>AP ICET mock tests</strong><span>Timed practice tests with section-wise results</span></a>
+      <a class="card card--link" href="/mock-tests/tg-icet.html"><strong>TG ICET mock tests</strong><span>Timed practice tests with section-wise results</span></a>
+      <a class="card card--link" href="#enquiry"><strong>Talk to our team</strong><span>Send an enquiry or tap “Ask me”</span></a>
+    </section>
+
+    <section id="programmes" class="container section">
+      <h2><!--TEXT:sections.programmes.heading--></h2>
+      <p class="section__lead"><!--TEXT:sections.programmes.lead--></p>
+      <div class="grid grid--3">
+        <!--PROGRAMMES-->
+      </div>
+    </section>
+
+    <section id="mock-tests" class="container section">
+      <h2><!--TEXT:sections.mockTests.heading--></h2>
+      <p class="section__lead"><strong>Practice tests only. Not affiliated with the official exam authorities.</strong> <!--TEXT:sections.mockTests.lead--></p>
+      <div class="grid grid--2">
+        <div class="exam-card">
+          <span class="exam-card__state">ANDHRA PRADESH</span>
+          <h3>AP ICET</h3>
+          <ul><li>Full-length mock test 1 (sample)</li><li>Full-length mock test 2 (sample)</li><li>Section practice sets (sample)</li></ul>
+          <a class="btn btn--accent" href="/mock-tests/ap-icet.html">Start AP ICET test</a>
+        </div>
+        <div class="exam-card">
+          <span class="exam-card__state">TELANGANA</span>
+          <h3>TG ICET</h3>
+          <ul><li>Full-length mock test 1 (sample)</li><li>Full-length mock test 2 (sample)</li><li>Section practice sets (sample)</li></ul>
+          <a class="btn btn--accent" href="/mock-tests/tg-icet.html">Start TG ICET test</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="highlights" class="container section">
+      <h2><!--TEXT:sections.highlights.heading--></h2>
+      <div class="grid grid--highlights">
+        <!--HIGHLIGHTS-->
+      </div>
+      <div class="placeholder stats-note">[Verified statistics strip — figures and sources to be supplied by owner]</div>
+    </section>
+
+    <section id="videos" class="container section">
+      <h2><!--TEXT:sections.videos.heading--></h2>
+      <div class="grid grid--3">
+        <div class="video">[Video 1 — URL pending]</div>
+        <div class="video">[Video 2 — URL pending]</div>
+        <div class="video">[Video 3 — URL pending]</div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <div class="enquiry">
+        <div class="enquiry__info">
+          <h2><!--TEXT:sections.contact.heading--></h2>
+          <p><!--TEXT:sections.contact.lead--></p>
+          <p>[Office address]<br>[Phone]<br>[Email]</p>
+          <div class="placeholder enquiry__map">[Map — location to confirm]</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div><strong class="footer__brand">MyPlanetFinance</strong><span>[Short description — owner to supply]</span></div>
+      <div><strong>Explore</strong><a href="#programmes">Programmes</a><a href="/mock-tests.html">Mock tests</a><a href="#videos">Videos</a><span>Privacy policy (pending)</span></div>
+      <div><strong>Contact</strong><span>[Office address]</span><span>[Phone] · [Email]</span></div>
+      <div class="footer__social"><strong>Follow us</strong><!--SOCIAL_LIST--></div>
+    </div>
+    <div class="footer__bottom">© [Year] [Official business name] · Prototype with placeholder content</div>
+  </footer>
+
+  <script src="/js/site.js"></script>
+  <script src="/js/chat-widget.js"></script>
+</body>
+</html>

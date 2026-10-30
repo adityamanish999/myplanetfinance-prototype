@@ -1,0 +1,220 @@
+{
+  "exam": "TG ICET Practice Set 1",
+  "questions": [
+    {
+      "id": 1,
+      "section": "Mathematical Ability",
+      "question": "30% of 500 is:",
+      "options": ["120", "150", "180", "200"],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "section": "Mathematical Ability",
+      "question": "If x + 12 = 25, x =",
+      "options": ["11", "12", "13", "14"],
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "section": "Mathematical Ability",
+      "question": "The square root of 144 is:",
+      "options": ["10", "11", "12", "13"],
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "section": "Mathematical Ability",
+      "question": "A sum doubles in 5 years at simple interest. Rate is:",
+      "options": ["10%", "15%", "20%", "25%"],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "section": "Mathematical Ability",
+      "question": "What is 18% of 250?",
+      "options": ["40", "45", "50", "55"],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "section": "Analytical Ability",
+      "question": "Find the next number: 5, 10, 20, 40, ?",
+      "options": ["60", "70", "80", "90"],
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "section": "Analytical Ability",
+      "question": "Book : Read :: Food :",
+      "options": ["Cook", "Eat", "Serve", "Buy"],
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "section": "Analytical Ability",
+      "question": "If SOUTH is written as HTUOS, then NORTH is:",
+      "options": ["HTRON", "HTRON", "NORTH", "RONTH"],
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "section": "Analytical Ability",
+      "question": "Find odd one: Circle, Square, Triangle, Mango",
+      "options": ["Circle", "Square", "Triangle", "Mango"],
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "section": "Analytical Ability",
+      "question": "Which direction does the sun rise?",
+      "options": ["West", "East", "North", "South"],
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "section": "Communication Ability",
+      "question": "Antonym of 'Expand':",
+      "options": ["Grow", "Stretch", "Contract", "Increase"],
+      "answer": "C"
+    },
+    {
+      "id": 12,
+      "section": "Communication Ability",
+      "question": "Synonym of 'Brave':",
+      "options": ["Coward", "Fearful", "Courageous", "Weak"],
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "section": "Communication Ability",
+      "question": "Choose correct spelling:",
+      "options": ["Occasion", "Ocassion", "Occassion", "Ocasion"],
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "section": "Communication Ability",
+      "question": "One who teaches is called:",
+      "options": ["Doctor", "Teacher", "Lawyer", "Farmer"],
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "section": "Communication Ability",
+      "question": "Choose the correct article: ___ umbrella",
+      "options": ["A", "An", "The", "No article"],
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "section": "Mathematical Ability",
+      "question": "The HCF of 12 and 18 is:",
+      "options": ["3", "6", "9", "12"],
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "section": "Mathematical Ability",
+      "question": "The LCM of 6 and 8 is:",
+      "options": ["12", "24", "36", "48"],
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "section": "Mathematical Ability",
+      "question": "7 × 8 =",
+      "options": ["54", "56", "58", "64"],
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "section": "Analytical Ability",
+      "question": "Find next term: 10, 20, 30, 40, ?",
+      "options": ["45", "50", "55", "60"],
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "section": "Analytical Ability",
+      "question": "Which is different?",
+      "options": ["Dog", "Cat", "Cow", "Car"],
+      "answer": "D"
+    },
+    {
+      "id": 21,
+      "section": "Communication Ability",
+      "question": "Plural of 'Mouse':",
+      "options": ["Mouses", "Mouse", "Mice", "Mices"],
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "section": "Communication Ability",
+      "question": "Correct sentence:",
+      "options": [
+        "She have a pen.",
+        "She has a pen.",
+        "She having a pen.",
+        "She hading a pen."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "section": "Mathematical Ability",
+      "question": "Profit = SP - ?",
+      "options": ["CP", "MP", "Discount", "Tax"],
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "section": "Analytical Ability",
+      "question": "If all roses are flowers, all flowers are plants. Then roses are:",
+      "options": ["Plants", "Trees", "Leaves", "Seeds"],
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "section": "Communication Ability",
+      "question": "Meaning of 'Optimistic':",
+      "options": ["Hopeful", "Sad", "Angry", "Lazy"],
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "section": "Mathematical Ability",
+      "question": "Area of a rectangle =",
+      "options": ["l+b", "2(l+b)", "l×b", "l/b"],
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "section": "Analytical Ability",
+      "question": "Find next letter: B, D, F, H, ?",
+      "options": ["I", "J", "K", "L"],
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "section": "Communication Ability",
+      "question": "Antonym of 'Rich':",
+      "options": ["Poor", "Happy", "Strong", "Kind"],
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "section": "Mathematical Ability",
+      "question": "50 ÷ 10 =",
+      "options": ["4", "5", "6", "7"],
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "section": "Analytical Ability",
+      "question": "Which number comes next? 2, 6, 12, 20, ?",
+      "options": ["28", "30", "32", "36"],
+      "answer": "B"
+    }
+  ]
+}

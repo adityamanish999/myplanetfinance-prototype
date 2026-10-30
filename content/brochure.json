@@ -1,0 +1,142 @@
+{
+  "title": "MyPlanetFinance",
+  "subtitle": "Programme brochure · Admissions [academic year — owner to confirm]",
+  "notice": "PLACEHOLDER BROCHURE. Every value in [square brackets] must be supplied and verified by MyPlanetFinance before this brochure is published.",
+  "intro": "[Short introduction to MyPlanetFinance — owner to supply.]",
+  "programmes": [
+    {
+      "name": "PGDM / MBA",
+      "rows": [
+        [
+          "Course duration",
+          "[e.g. number of years — owner to confirm]"
+        ],
+        [
+          "Number of semesters",
+          "[Owner to confirm]"
+        ],
+        [
+          "Total course fee",
+          "[Amount in Rs. — owner to confirm]"
+        ],
+        [
+          "Fee payment schedule",
+          "[Per semester / per year — owner to confirm]"
+        ],
+        [
+          "Eligibility",
+          "Undergraduate degree"
+        ],
+        [
+          "Grades / qualification awarded",
+          "[Owner to confirm]"
+        ],
+        [
+          "Last date of application",
+          "[Date — owner to confirm]"
+        ]
+      ]
+    },
+    {
+      "name": "Advanced B.Com / BBA",
+      "rows": [
+        [
+          "Course duration",
+          "[Owner to confirm]"
+        ],
+        [
+          "Number of semesters",
+          "[Owner to confirm]"
+        ],
+        [
+          "Total course fee",
+          "[Amount in Rs. — owner to confirm]"
+        ],
+        [
+          "Fee payment schedule",
+          "[Owner to confirm]"
+        ],
+        [
+          "Eligibility",
+          "PUC (Class 12)"
+        ],
+        [
+          "Grades / qualification awarded",
+          "[Owner to confirm]"
+        ],
+        [
+          "Last date of application",
+          "[Date — owner to confirm]"
+        ]
+      ]
+    },
+    {
+      "name": "Investment Banking & Fund Accounting",
+      "rows": [
+        [
+          "Course duration",
+          "[Owner to confirm]"
+        ],
+        [
+          "Number of semesters / modules",
+          "[Owner to confirm]"
+        ],
+        [
+          "Total course fee",
+          "[Amount in Rs. — owner to confirm]"
+        ],
+        [
+          "Fee payment schedule",
+          "[Owner to confirm]"
+        ],
+        [
+          "Eligibility",
+          "MBA"
+        ],
+        [
+          "Grades / certificate awarded",
+          "[Owner to confirm]"
+        ],
+        [
+          "Last date of application",
+          "[Date — owner to confirm]"
+        ]
+      ]
+    }
+  ],
+  "grading": {
+    "heading": "Grading scheme",
+    "text": "[Grade scale (e.g. letter grades and grade points), pass criteria and how the final grade or CGPA is calculated — owner to supply.]"
+  },
+  "dates": {
+    "heading": "Important dates",
+    "rows": [
+      [
+        "Applications open",
+        "[Date — owner to confirm]"
+      ],
+      [
+        "Last date of application",
+        "[Date — owner to confirm]"
+      ],
+      [
+        "Selection / interview",
+        "[Date — owner to confirm]"
+      ],
+      [
+        "Classes begin",
+        "[Date — owner to confirm]"
+      ]
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "lines": [
+      "[Office address]",
+      "[Phone]",
+      "[Email]",
+      "Apply online: /apply.html (demo, not yet open)"
+    ]
+  },
+  "footer": "Prototype brochure with placeholder content. Mock tests are practice only and not affiliated with the official exam authorities."
+}

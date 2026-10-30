@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Test result — MyPlanetFinance</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/mock-tests.css">
+  <link rel="stylesheet" href="/css/chat-widget.css">
+</head>
+<body data-page="result">
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">MyPlanetFinance</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/mock-tests.html">Mock Tests</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-main">
+    <p id="mt-status" class="mt-status" role="status">Loading your result…</p>
+    <p id="mt-error" class="mt-error" role="alert" hidden></p>
+
+    <div id="rs-content" hidden>
+      <h1 id="rs-title" class="mt-title">Result</h1>
+      <p id="rs-auto" class="mt-disclaimer" hidden>Time ran out, so this test was submitted automatically with your saved answers.</p>
+
+      <section class="mt-panel rs-score" aria-label="Score">
+        <div>
+          <p class="mt-status">Your score</p>
+          <p id="rs-score" class="rs-score__value">–</p>
+        </div>
+        <ul id="rs-counts" class="mt-summary"></ul>
+      </section>
+
+      <section class="mt-panel">
+        <h2>Section-wise results</h2>
+        <div class="table-scroll">
+          <table class="rs-table">
+            <thead><tr><th scope="col">Section</th><th scope="col">Correct</th><th scope="col">Score</th></tr></thead>
+            <tbody id="rs-sections"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="mt-panel">
+        <h2>Answer review</h2>
+        <ol id="rs-review" class="rs-review"></ol>
+      </section>
+
+      <div class="btn-row">
+        <a id="rs-retake" class="btn btn--primary" href="/mock-tests.html">Retake this test</a>
+        <a id="rs-exam" class="btn btn--secondary" href="/mock-tests.html">More tests</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="/js/mock-test-core.js"></script>
+  <script src="/js/mock-test-pages.js"></script>
+  <script src="/js/chat-widget.js"></script>
+</body>
+</html>
